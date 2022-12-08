@@ -20,6 +20,11 @@ It should be downloaded in local machine in order to run our models.
 | Amazon Planet | [Planet](https://www.planet.com/) | [Kaggle](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data), [GDrive](https://drive.google.com/drive/folders/1Gmy_Lr625n8LjnIKaAI1DRcK8UMscZTi?usp=sharing)  |
 
 
+## Models
+The downloadable .pth models are uploaded on this link :
+
+https://drive.google.com/drive/folders/1VD1s7dcR0OhPpPZwPPsA7rD4ND_sGq1o?usp=sharing
+
 ## Requirements
 
 The following bullet points are the links of the libraries/frameworks we used in our project. In order to run our models, 
@@ -37,5 +42,11 @@ these libraries must be installed in the local machine.
 * [Seaborn](https://seaborn.pydata.org/installing.html) 
 
 
-## How to train model:
+## How to test model:
+1. To test the model load the testing.ipynb file from notebooks folder.
+2. Give the input path of the model in torch.load()
+3. We have defined a dictionary named sat_map for EuroSAT dataset, which will convet our predicted output to labels. Similarly we can do it for other 2 datasets.
+4. To pass the image for which the classification has to be done, we just need to pass the path of that image in image.open() method.
+5. Run the shell to get the prediction.
+
 
