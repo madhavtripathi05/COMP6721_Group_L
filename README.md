@@ -49,4 +49,8 @@ these libraries must be installed in the local machine.
 4. To pass the image for which the classification has to be done, we just need to pass the path of that image in image.open() method.
 5. Run the shell to get the prediction.
 
-
+## How to train model:
+1. To train the model load the respective .ipynb file from the notebooks folder.
+2. Give the input path of the model in torch.load()
+3. To pass the image for which the classification has to be done, we just need to pass the path of that image in image.open() method.
+5. Run the shell to get the prediction.
